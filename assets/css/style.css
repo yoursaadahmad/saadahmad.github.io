@@ -1207,3 +1207,10 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+
+@media screen and (max-width:600px)
+{
+  background: url("../img/iamthehero.jpg") top right no-repeat;
+  background-size: cover;
+  position: relative;
+}
