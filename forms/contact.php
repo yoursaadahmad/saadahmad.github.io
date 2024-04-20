@@ -2,8 +2,6 @@
 // Replace contact@example.com with your real receiving email address
 $receiving_email_address = 'mosesnuggz@gmail.com';
 
-// Including the PHP Email Form library directly
-include('../assets/vendor/php-email-form/php-email-form.php');
 
 $contact = new PHP_Email_Form;
 $contact->ajax = true;
