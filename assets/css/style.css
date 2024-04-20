@@ -1209,7 +1209,9 @@ section {
 }
 
 @media screen and (max-width:600px)
-{
+#hero {
+  
+  
   background: url("../img/iamthehero.jpg") top right no-repeat;
   background-size: cover;
   position: relative;
