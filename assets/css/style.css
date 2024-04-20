@@ -1208,11 +1208,10 @@ section {
   font-size: 13px;
 }
 
-@media screen and (max-width:600px)
+@media screen and (max-width: 600px) and (min-width: 400px)
 #hero {
   
   
-  background: url("../img/iamthehero.jpg") top right no-repeat;
-  background-size: cover;
-  position: relative;
+  background: url("../img/iamthehero.jpg");
+  
 }
